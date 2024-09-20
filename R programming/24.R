@@ -1,0 +1,11 @@
+help(data.frame)
+Uid=c(1,2,3,4,5)
+Uname=c("AIT","RVCE","BMSCE","RNSIT","CMRIT")
+strength=c(1000,200,300,550,600)
+result=c(60,50,60,20,40)
+location=c("Soladevanahalli","Banaswadi","Baswangudi","Vijaynagar","RPClayout")
+
+uni_data = data.frame(ID=Uid,Name=Uname,strength,result,location)
+print(uni_data)
+str(uni_data)
+summary(uni_data)
